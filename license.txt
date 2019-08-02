@@ -31,6 +31,12 @@ mobs_pig.ogg - from mobs_animal by TenPlus1 (MIT)
 dmobs_chirrup.ogg - CC BY SA 3.0 taikedz
 wasp.ogg - Public Domain
 
+* dmobs_thunder.ogg - CC-0 : https://freesound.org/people/Josh74000MC/sounds/475094/
+* dmobs_wind.ogg - CC-BY 3.0 : https://freesound.org/people/Pedaling%20Prince/sounds/338952/
+* dmobs_poison.ogg - CC-BY 3.0 : https://freesound.org/people/qubodup/sounds/182789/
+* dmobs_wave.ogg - CC-BY 3.0 : https://freesound.org/people/Kayyy/sounds/61011/
+
+
 --License of lib_mount:
 -- Minetest mod: lib_mount
 -- =======================

@@ -11,8 +11,8 @@ local gdragon_base = {
 	dogshoot_count_max =5,
 	arrow = "dmobs:lightning",
 	shoot_offset = 1,
-	hp_min = 140,
-	hp_max = 180,
+	hp_min = 150,
+	hp_max = 250,
 	armor = 220,
 	collisionbox = {-0.6, -1.4, -0.6, 0.6, 0.6, 0.6},
 	visual = "mesh",
@@ -37,6 +37,7 @@ local gdragon_base = {
 	run_velocity = 5,
 	jump = true,
 	fly = true,
+	fly_in = {"air","default:water_source","default:water_flowing", "default:lava_source","default:lava_flowing"},
 	drops = {
 		{name = "dmobs:dragon_egg_great", chance = 1, min = 1, max = 1},
 	},
@@ -67,11 +68,7 @@ gdragon_base.type = "npc"
 gdragon_base.attacks_monsters = true
 
 gdragon_base.on_rightclick = dmobs.dragon.ride
-	
+
 gdragon_base.do_custom = dmobs.dragon.do_custom
 
 mobs:register_mob("dmobs:dragon_great_tame", dmobs.deepclone(gdragon_base) )
-
-
-mobs:register_egg("dmobs:dragon_great", "Boss Dragon", "dmobs_egg1.png", 1)
-mobs:register_egg("dmobs:dragon_great_tame", "Great Dragon", "default_lava_source_animated.png", 1)

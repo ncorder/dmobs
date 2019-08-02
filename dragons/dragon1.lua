@@ -1,3 +1,5 @@
+-- Fire dragon
+
 local dragondef = {
    type = "monster",
    passive = false,
@@ -37,14 +39,15 @@ local dragondef = {
    run_velocity = 5,
    jump = true,
    fly = true,
+   fly_in = {"air","default:water_source", "default:water_flowing", "default:lava_source", "default:lava_flowing"},
    drops = {
       {name = "dmobs:egg", chance = 1, min = 1, max = 1},
       {name = "dmobs:dragon_gem", chance = 1, min = 1, max = 1},
    },
    fall_speed = 0,
    stepheight = 10,
-   water_damage = 2,
-   lava_damage = 0,
+   water_damage = 3,
+   lava_damage = 1,
    light_damage = 0,
    view_range = 20,
    animation = {
@@ -64,13 +67,15 @@ local dragondef = {
 	on_rightclick = dmobs.dragon.on_rc
 }
 
-mobs:register_mob("dmobs:dragon", dmobs.deepclone(dragondef) )
 
+-- The wild dragon is registered
+mobs:register_mob("dmobs:dragon1", dmobs.deepclone(dragondef) )
+
+-- The def is modified to make it tamed and rideable
 dragondef.type = "npc"
 dragondef.attacks_monsters = true
-
 dragondef.on_rightclick = dmobs.dragon.ride
-	
 dragondef.do_custom = dmobs.dragon.do_custom
 
+-- The tamed version is registered
 mobs:register_mob("dmobs:dragon_red", dmobs.deepclone(dragondef) )
