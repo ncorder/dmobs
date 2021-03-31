@@ -1,3 +1,5 @@
+* 2021-03-30 : Poikilos
+  * Add more details to the panda texture (Change every pixel give or take a few) while reducing the number of pixels.
 * 2019-07-31 : Grossam
   * spawn.lua rewritten using mobs:spawn()
   * spawn rules modified for more consistency (e.g. hedgehogs now spawn at night)

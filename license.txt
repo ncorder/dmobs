@@ -22,7 +22,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 License for Textures, Models
 ---------------------------------------
 
-CC BY-SA 3.0 UNPORTED. Created by D00Med
+CC BY-SA 3.0 UNPORTED. Created by D00Med except where an author is listed.
 
 Roar.ogg - CC BY 3.0 Mike Koenig - http://soundbible.com/1165-Dinosaur-Roar.html
 Velociraptor.ogg - CC BY 3.0 snottyboi - http://soundbible.com/1373-Velociraptor-Call.html
@@ -30,6 +30,7 @@ whale_1.ogg - CC0 Public Domain - https://en.wikipedia.org/wiki/File:Humpbackwha
 mobs_pig.ogg - from mobs_animal by TenPlus1 (MIT)
 dmobs_chirrup.ogg - CC BY SA 3.0 taikedz
 wasp.ogg - Public Domain
+dmobs_panda.png & dmobs_panda.xcf - CC BY SA 3.0 2016 D00Med & 2021 Poikilos
 
 * dmobs_thunder.ogg - CC-0 : https://freesound.org/people/Josh74000MC/sounds/475094/
 * dmobs_wind.ogg - CC-BY 3.0 : https://freesound.org/people/Pedaling%20Prince/sounds/338952/
